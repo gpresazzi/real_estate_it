@@ -1,3 +1,0 @@
-setuptools
-bs4
-requests
