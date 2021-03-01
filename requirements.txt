@@ -1,3 +1,5 @@
 setuptools
 bs4
-requests
+requests>2.4
+googlemaps
+google-api-python-client

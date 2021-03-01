@@ -10,7 +10,12 @@ class House:
     ultimo: bool
     url: str
     energy: str
-    posto_auto: str
+    car_spot: str
+    address: str
+    lat: float
+    lng: float
 
     def __repr__(self):
-        return f"Url: {self.url} | cost: {self.cost} | floor: {self.floor} | ultimo: {self.ultimo} | energy: {self.energy} | area: {self.area} | posto_auto: {self.posto_auto}"
+        return f"Url: {self.url} | address: {self.address} | cost: {self.cost} | floor: {self.floor} | " \
+               f"last floor: {self.ultimo} | energy: {self.energy} | area: {self.area} | car_spot: {self.car_spot} " \
+               f"| lat: {self.lat} | long: {self.lng} "
