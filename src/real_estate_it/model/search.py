@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 
 @dataclass
-class ImmobiliareSearch:
+class Search:
     city: str
     zona: str
     min_price: int = None

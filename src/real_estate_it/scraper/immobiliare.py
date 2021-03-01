@@ -7,7 +7,7 @@ import googlemaps
 from io import BytesIO
 from bs4 import BeautifulSoup
 from typing import List, Tuple
-from real_estate_it.model.search import ImmobiliareSearch
+from real_estate_it.model.search import Search
 from real_estate_it.model.house import House
 
 logger = logging.getLogger(__name__)
@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 class Immobiliare:
 
     def __init__(self,
-                 search: ImmobiliareSearch,
+                 search: Search,
                  enable_multipages: bool = True,
                  max_pages: int = 100,
                  enrich_geolocation: bool = True,
